@@ -1,0 +1,315 @@
+LOG:  could not bind IPv4 socket: No error
+HINT:  Is another postmaster already running on port 65432? If not, wait a few seconds and retry.
+WARNING:  could not create listen socket for "0.0.0.0"
+FATAL:  could not create any TCP/IP sockets
+LOG:  database system was shut down at 2014-03-30 20:37:38 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  could not bind IPv4 socket: No error
+HINT:  Is another postmaster already running on port 65432? If not, wait a few seconds and retry.
+WARNING:  could not create listen socket for "0.0.0.0"
+FATAL:  could not create any TCP/IP sockets
+LOG:  database system was interrupted; last known up at 2015-11-26 23:16:58 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1770A58
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  canceling statement due to user request
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-27 22:30:36 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  background writer process (PID 12312) was terminated by exception 0x40010004
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
+LOG:  statistics collector process (PID 12308) was terminated by exception 0x40010004
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  all server processes terminated; reinitializing
+LOG:  startup process (PID 10408) was terminated by exception 0xC000026B
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  aborting startup due to startup process failure
+LOG:  database system was interrupted; last known up at 2015-11-28 00:29:33 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  redo starts at 0/5DF7E08
+LOG:  record with zero length at 0/5DF8C08
+LOG:  redo done at 0/5DF8BD8
+LOG:  last completed transaction was at log time 2015-11-28 00:31:39.833+08
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  could not obtain lock on row in relation "ir_cron"
+STATEMENT:  SELECT *
+	                                   FROM ir_cron
+	                                   WHERE numbercall != 0
+	                                      AND active
+	                                      AND nextcall <= (now() at time zone 'UTC')
+	                                      AND id=1
+	                                   FOR UPDATE NOWAIT
+LOG:  database system was interrupted; last known up at 2015-11-28 14:10:07 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  redo starts at 0/5E42BD0
+LOG:  record with zero length at 0/5E43728
+LOG:  redo done at 0/5E436F8
+LOG:  last completed transaction was at log time 2015-11-28 14:13:42.267+08
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  could not serialize access due to concurrent update
+STATEMENT:  UPDATE "pos_session" SET "login_number"=11,"write_uid"=1,"write_date"=(now() at time zone 'UTC') WHERE id IN (1)
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+FATAL:  the database system is shutting down
+FATAL:  the database system is shutting down
+FATAL:  the database system is shutting down
+FATAL:  the database system is shutting down
+FATAL:  the database system is shutting down
+FATAL:  the database system is shutting down
+FATAL:  the database system is shutting down
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-28 20:47:55 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+FATAL:  the database system is shutting down
+FATAL:  the database system is shutting down
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-28 22:19:08 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-28 22:32:41 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  could not obtain lock on row in relation "ir_cron"
+STATEMENT:  SELECT *
+	                                   FROM ir_cron
+	                                   WHERE numbercall != 0
+	                                      AND active
+	                                      AND nextcall <= (now() at time zone 'UTC')
+	                                      AND id=1
+	                                   FOR UPDATE NOWAIT
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+LOG:  database system was shut down at 2015-11-28 23:15:04 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  could not obtain lock on row in relation "ir_cron"
+STATEMENT:  SELECT *
+	                                   FROM ir_cron
+	                                   WHERE numbercall != 0
+	                                      AND active
+	                                      AND nextcall <= (now() at time zone 'UTC')
+	                                      AND id=1
+	                                   FOR UPDATE NOWAIT
+ERROR:  could not obtain lock on row in relation "ir_cron"
+STATEMENT:  SELECT *
+	                                   FROM ir_cron
+	                                   WHERE numbercall != 0
+	                                      AND active
+	                                      AND nextcall <= (now() at time zone 'UTC')
+	                                      AND id=2
+	                                   FOR UPDATE NOWAIT
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+LOG:  statistics collector process (PID 15852) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  autovacuum launcher process (PID 13184) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
+LOG:  abnormal database system shutdown
+^CLOG:  database system was interrupted; last known up at 2015-11-29 00:01:26 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/6182450
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+ERROR:  canceling statement due to user request
+ERROR:  canceling statement due to user request
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-29 11:10:54 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was interrupted; last known up at 2015-11-29 15:23:22 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  redo starts at 0/6772590
+LOG:  record with zero length at 0/67758E8
+LOG:  redo done at 0/67758B8
+LOG:  last completed transaction was at log time 2015-11-29 15:24:41.325+08
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+ERROR:  canceling statement due to user request
+ERROR:  canceling statement due to user request
+FATAL:  the database system is shutting down
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-29 22:35:09 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-29 23:04:32 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  could not serialize access due to concurrent update
+STATEMENT:  UPDATE "im_chat_presence" SET "status"='online',"last_poll"='2015-11-29 15:05:32',"write_uid"=1,"write_date"=(now() at time zone 'UTC') WHERE id IN (1)
+ERROR:  could not serialize access due to concurrent update
+STATEMENT:  UPDATE "im_chat_presence" SET "status"='online',"last_poll"='2015-11-29 15:05:32',"write_uid"=1,"write_date"=(now() at time zone 'UTC') WHERE id IN (1)
+LOG:  autovacuum launcher process (PID 4484) was terminated by exception 0x40010004
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
+WARNING:  terminating connection because of crash of another server process
+DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+LOG:  statistics collector process (PID 7148) was terminated by exception 0x40010004
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  all server processes terminated; reinitializing
+LOG:  startup process (PID 14048) was terminated by exception 0xC000026B
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  aborting startup due to startup process failure
+LOG:  database system was interrupted; last known up at 2015-11-30 00:19:41 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  redo starts at 0/6823478
+LOG:  record with zero length at 0/6824130
+LOG:  redo done at 0/6824100
+LOG:  last completed transaction was at log time 2015-11-30 00:20:54.647+08
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  could not obtain lock on row in relation "ir_cron"
+STATEMENT:  SELECT *
+	                                   FROM ir_cron
+	                                   WHERE numbercall != 0
+	                                      AND active
+	                                      AND nextcall <= (now() at time zone 'UTC')
+	                                      AND id=1
+	                                   FOR UPDATE NOWAIT
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-30 22:17:00 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  database system was interrupted; last known up at 2015-12-01 00:25:44 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  redo starts at 0/6A3EB30
+LOG:  record with zero length at 0/6A42780
+LOG:  redo done at 0/6A42750
+LOG:  last completed transaction was at log time 2015-12-01 06:57:11.326+08
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  statistics collector process (PID 7716) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+ERROR:  canceling statement due to user request
+LOG:  background writer process (PID 7344) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
